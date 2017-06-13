@@ -1,0 +1,84 @@
+body {
+    font-family: VT323, Helvetica, Arial, sans-serif;
+    font-size:20px;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    background-color:#ccc;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+container {
+    width: 1152px; height: 300px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+}
+
+message {
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+score {
+    left: 10px; top: 10px;
+    font-size: 20px;
+    z-index: 9999;
+}
+
+sky {
+    width: 2304px; height: 224px;
+    background-image: url('../images/background.png');
+    background-repeat: repeat-x;
+    animation: skyanimation linear 10s infinite;
+}
+
+forest {
+    width: 2304px; height: 224px;
+    background-image: url('../images/forest.png');
+    background-repeat: repeat-x;
+    animation: forestanimation linear 10s infinite;
+}
+
+plane {
+    width: 100px; height: 55px;
+    background-image: url('../images/plane.png');
+}
+
+cloud {
+    width: 100px; height: 52px;
+    background-image: url('../images/cloud.png');
+}
+
+.paused {
+    animation-play-state: paused;
+}
+
+@keyframes skyanimation {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(-1152px, 0px);
+    }
+}
+
+@keyframes forestanimation {
+    0% {
+        transform: translate(0px, 76px);
+    }
+
+    100% {
+        transform: translate(-1152px, 76px);
+    }
+}
+
+
+
