@@ -1,11 +1,11 @@
-# PRG08-Deelproduct1
+# PRG08-Eindproduct
 
 ![UML](uml.png?raw=true "UML")
 
 Getters and setters heb ik vanwege de ruimte niet opgenomen in het UML.
 
 ## Live versie
-https://srpater.github.io/PRG08-Eindproduct
+https://srpater.github.io/PRG08-Eindproduct/
 
 ## Installatie-instructies
 
