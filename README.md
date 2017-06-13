@@ -2,7 +2,7 @@
 
 ![UML](uml.png?raw=true "UML")
 
-Getters and setters heb ik vanwege de ruimte niet opgenomen in het UML. In plaats daarvan heb ik de betreffende properties gewoon als public opgenomen.
+Getters and setters heb ik vanwege de ruimte niet opgenomen in het UML.
 
 ## Live versie
 https://srpater.github.io/PRG08-Eindproduct
